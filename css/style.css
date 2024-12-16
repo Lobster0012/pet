@@ -534,7 +534,7 @@ form button:hover,
 
 @media (max-width: 550px ) {
     #header{
-        font-size: 24px;;
+        font-size: 20px;;
     }
     .navbar-toggler-icon{
         width: 24px;
@@ -599,6 +599,12 @@ form button:hover,
     }
     iframe{
         height:400px;
+    }
+    #reviews .mb-4 {
+        margin-bottom: 0 !important;
+    }
+    #reviews .mt-5 {
+        margin-top: 1rem !important;
     }
 }
 
