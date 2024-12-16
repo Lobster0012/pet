@@ -313,7 +313,8 @@ textarea { resize: none;
 }
 .modal-content img{
     width: 90px;
-    height: 90px;}
+    height: 90px;
+}
 .modal-content{ 
     display: flex;
     justify-content: center;
@@ -345,6 +346,9 @@ textarea { resize: none;
     width: 60px;
     height: 60px;
     margin-right: 15px;
+}
+#reviews{
+    margin:  3% 0;
 }
 /* контакты*/
 iframe{
@@ -604,7 +608,14 @@ form button:hover,
         margin-bottom: 0 !important;
     }
     #reviews .mt-5 {
-        margin-top: 1rem !important;
+        margin-top: 0.5rem !important;
+    }
+    #formLabel .modal-body{
+        font-size: 28px;
+    }
+    .modal-content img{
+        width: 60px;
+        height: 60px;
     }
 }
 
