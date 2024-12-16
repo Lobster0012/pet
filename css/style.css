@@ -533,6 +533,9 @@ form button:hover,
 }
 
 @media (max-width: 550px ) {
+    #header{
+        font-size: 24px;;
+    }
     .navbar-toggler-icon{
         width: 24px;
         height: 30px;
@@ -541,7 +544,7 @@ form button:hover,
         margin-bottom: -3px;
     }
     .advantages-list-item img{
-        width: 45px;
+        width: 40px;
     }
     .card{
         border-radius: 10px;
@@ -560,7 +563,7 @@ form button:hover,
         border-radius: 5px;
     }
     .text{
-        font-size: 16px
+        font-size: 14px
     }
     #shoot-with-us img {
         display: none;
@@ -568,25 +571,34 @@ form button:hover,
     form {
         margin-top: 4%;
         background-color: var(--color-dark);
-        width: 60%;
+        width: 70%;
     }
     #shoot-with-us {
         justify-content: center;
     }
     .form-check-label {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
     .form-check-label a {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
     input, 
     textarea,
     form button{
-        font-size: 2.7vw;
+        font-size: 2.9vw;
         border-radius: 8px;   
     }
     form p {
-        font-size: 4vw;
+        font-size: 4.2vw;
+    }
+    .advantages-list {
+        margin-top: 0;
+    }
+    .advantages {
+        border-radius: 25px;
+    }
+    iframe{
+        height:400px;
     }
 }
 
@@ -603,7 +615,7 @@ form button:hover,
         height: 30px;
     }
     .advantages-list-item img{
-        width: 40px;
+        width: 35px;
     }
     .carousel-indicators [data-bs-target] {
         width: 10px;
