@@ -519,14 +519,15 @@ form button:hover,
     }
     #reviews h5{
         font-size: 18px;
+        margin: 0;
     }
 
     .text-muted {
         font-size: 16px;
     }
     .card img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     } 
     .text-big{
         font-size:3.5vw;
@@ -567,7 +568,7 @@ form button:hover,
         border-radius: 5px;
     }
     .text{
-        font-size: 14px
+        font-size: 16px
     }
     #shoot-with-us img {
         display: none;
@@ -575,31 +576,31 @@ form button:hover,
     form {
         margin-top: 4%;
         background-color: var(--color-dark);
-        width: 70%;
+        width: 80%;
     }
     #shoot-with-us {
         justify-content: center;
     }
     .form-check-label {
-        font-size: 2.7vw;
+        font-size: 3.7vw;
     }
     .form-check-label a {
-        font-size: 2.7vw;
+        font-size: 3.7vw;
     }
     input, 
     textarea,
     form button{
-        font-size: 2.9vw;
+        font-size: 4vw;
         border-radius: 8px;   
     }
     form p {
-        font-size: 4.2vw;
+        font-size: 4.5vw;
     }
     .advantages-list {
         margin-top: 0;
     }
     .advantages {
-        border-radius: 25px;
+        border-radius: 15px;
     }
     iframe{
         height:400px;
@@ -616,6 +617,17 @@ form button:hover,
     .modal-content img{
         width: 60px;
         height: 60px;
+    }
+    .advantages-list {
+         font-size: 4.5vw; 
+    }
+    .text-big{
+        font-size:3.8vw;
+    }
+    .paws {
+        width: 7%;
+        height: auto;
+        margin-right: 10px;
     }
 }
 
